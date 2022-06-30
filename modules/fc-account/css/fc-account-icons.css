@@ -1,0 +1,199 @@
+.woocommerce-MyAccount-navigation-link--dashboard a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\e065";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--employee-details a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f4ff";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--employee-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f51e";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--input-targets a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f044";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--reports a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f080";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--manage-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f788";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--approve-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f164";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--manage-users a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c0";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--manage-assets a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f1ad";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--store-commission a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f555";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--store-targets a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f140";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--sales-input a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f291";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--input-banking a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f788";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--view-banking a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f788";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--sales-targets a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f140";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--your-commission a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f555";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--amend-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f274";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--store-cover a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f4ce";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--staff-news a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f1ea";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--unapproved-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f165";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--search-sales a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--sales-multipliers a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f1ec";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--sales-reports a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f201";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--advisor-nps a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    margin-right:10px;
+	color: #3498db !important;
+}
+
+.woocommerce-MyAccount-navigation-link--scorecard-kpis a:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f24e";
+    margin-right:10px;
+	color: #3498db !important;
+}

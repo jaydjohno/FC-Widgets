@@ -1,0 +1,40 @@
+/* Bootstrap fixes for our close button */
+.close:hover
+{
+    background-color:transparent;
+}
+
+.alert-dismissable .close, .alert-dismissible .close
+{
+    top: -12px !important;
+}
+
+.stiles-booking-details-form .button
+{
+    margin-top:10px !important;
+}
+
+.stiles-booking-details-form  .required 
+{
+	color: red;
+	font-weight: 700;
+	border: 0 !important;
+	text-decoration: none;
+}
+
+.book_using label
+{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.book_using input, .book_using label
+{
+    margin-bottom:10px;
+}
+
+.book_using
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}

@@ -1,0 +1,1074 @@
+* {
+	font-family: "Poppins", helvetica, sans-serif;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.swal2-popup
+{
+	width: inherit !important;
+}
+
+.teal {color: #2980b9 !important;}
+
+p {
+	color: #2c3e50;
+}
+
+h3 {
+	color: #2c3e50;
+}
+
+.tab {
+	text-align: left !important;
+}
+
+th.text-center
+{
+    color: #2c3e50 !important;
+}
+
+.tab .tab-content {
+		padding: 0px !important;
+	}
+
+.spacer-bottom {
+	margin-bottom: 28px !important;
+}
+
+label {
+	color: #2c3e50;
+	margin-bottom: 8px !important;
+}
+
+col-md-12 spacer-bottom {padding-left: 0px !important; padding-right: 0px !important;}
+
+.is-active a 
+{
+	color: #345345 !important;
+	background-color: #fff !important;
+}
+
+.cookielink {color: #3498db !important;}
+
+
+col-md-12 cover-info table tbody td {vertical-align: middle !important;}
+
+#sales-form
+{
+    position:relative;
+}
+
+.table
+{
+    background-color:#ffffff;
+}
+
+.form-loader 
+{
+  position: relative;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 70px;
+  height: 70px;
+  left:50%;
+  top:50%;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+#form-overlay
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .5;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin 
+{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+	width: 100%;
+}
+
+table thead th {
+    background-color: #2c3e50 !important;
+    color: #ffffff !important;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+table tbody td {
+    color: #333;
+    padding: 10px;
+    white-space: nowrap !important;
+}
+
+.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-content  {
+    position: relative !important;
+	border: 1px solid #ededed !important;
+	padding-bottom: 10px !important;
+}
+
+.table-responsive {
+    overflow-y: visible !important;
+    padding-bottom: 5px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-bottom: 28px !important;
+	border: none !important;
+}
+
+.unapproved_dates
+{
+    margin-top:15px;
+}
+
+.unapproved_dates li
+{
+    font-family: 'Roboto Mono' , monospace;
+    display:inline-block;
+    background: white;
+    padding:16px !important;
+    margin-right:8px;
+    margin-bottom:8px;
+    border-radius: 8px;
+}
+
+.unapproved_dates li:before
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f273";
+    margin-right:10px;
+	color: #c0392b !important;
+}
+
+::-webkit-scrollbar:vertical {
+        height: 4px;
+        width: 4px;
+        background: black;
+    }
+    
+    ::-webkit-scrollbar-thumb:vertical {
+        background: #7f8c8d;
+        border-radius: 10px;
+    }
+
+::-webkit-scrollbar:horizontal {
+        height: 4px;
+        width: 4px;
+        background: gray;
+    }
+    
+    ::-webkit-scrollbar-thumb:horizontal {
+        background: #0652fd;
+        border-radius: 10px;
+    }
+
+
+table tbody tr td.variance-minus {
+	background: #e74c3c !important;
+	color: #ffffff !important;
+}
+
+table tbody tr td.variance-plus {
+	background: #27ae60 !important;
+	color: #ffffff !important;
+}
+
+.overlay
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255,255,255,0.7) url("https://www.familyconnectgroup.co.uk/wp-content/uploads/2020/10/preloader.svg") center no-repeat;
+}
+
+/* Turn off scrollbar when body element has the loading class */
+body.loading
+{
+    overflow: hidden;   
+}
+    
+/* Make spinner image visible when body element has the loading class */
+body.loading .overlay
+{
+    display: block;
+}
+
+button[disabled], html input[disabled] {background-color: #dddddd !important;}
+
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text 
+{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  margin-bottom: 16px !important;
+  background-color: #ecf0f1 !important;
+}
+ 
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.checkbox-inline, .radio-inline {
+	line-height: 1.6 !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a
+{
+	color: #fff !important;
+}
+
+.spacer
+{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.stiles_my_account_page 
+{
+  overflow: hidden;
+}
+
+.stilesAddUserForm
+{
+    text-align: left;
+}
+
+.new a
+{
+	color: #fff !important;
+	background-color: #337ab7 !important;
+}
+
+input[type=checkbox], input[type=radio] 
+{
+    line-height: 0px;
+}
+
+.old a
+{
+	color: #337ab7 !important;
+	background-color: white !important;
+	text-decoration: none;
+}
+
+.nav > a
+{
+    color:white !important;
+}
+
+.user-name, #storeselect, #deletestore
+{
+    margin-top:20px !important;
+}
+
+#storeselect,  {
+	margin-top: 20px !important;
+}
+
+.tab-content>.tab-pane {
+	margin-top: 20px !important;
+}
+
+.rota-input
+{
+    margin-top:20px;
+}
+
+.delete-submit
+{
+    margin-top:20px;
+}
+
+.manager-Account-Edit
+{
+    text-align:left;
+}
+
+.StilesDeleteUser
+{
+    text-align:left;
+}
+
+.user_type
+{
+    margin-bottom:20px;
+}
+
+input[type="checkbox"], input[type="radio"] 
+{
+	margin: 0px 0 0;
+	margin-top: 1px;
+	line-height: -4px;
+}
+
+.create-password legend, .edit-password legend
+{
+    margin-top:20px;
+}
+
+.blank-row
+{
+    border:0px !important;
+    background-color:transparent !important;
+}
+
+.select2-container
+{
+    height: 42px !important;
+	margin-bottom: 24px !important;
+}
+
+.select2-selection
+{
+    height: 42px !important;
+}
+
+.select2-container .select2-selection--multiple 
+{
+    height: auto !important;
+    margin: 0;
+    padding: 0;
+    line-height:inherit;
+    border-radius:0;
+}
+
+.select2-container .select2-search--inline .select2-search__field 
+{
+    margin:0;
+    padding:0;
+    min-height:0;
+}
+
+.select2-container .select2-search--inline 
+{
+    line-height:inherit;
+}
+
+.select2-selection__choice
+{
+    height:30px;
+}
+
+.select2-selection__rendered 
+{
+    line-height: inherit;
+    margin-top:6px;
+}
+
+.select2-container .select2-selection--single 
+{
+    height: 42px !important;
+	border: 1px solid #ededed !important;
+}
+
+.select2-selection__arrow 
+{
+    height: 42px !important;
+	padding-right: 6px;
+}
+
+.password-options
+{
+    margin-bottom:20px;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-content
+{
+	border-radius: 4px;
+	border: 1px solid #ededed !important;
+	padding: 40px !important;
+	margin-right: 1%;
+	margin-top: -79px !important;
+	width: 86.2% !important;
+}
+
+
+.stiles_my_account_page .woocommerce-MyAccount-content .form-row 
+{
+  display: block;
+}
+
+.stiles-user-area 
+{
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  width: 12% !important;
+  background-color: #34495e !important;
+  align-items: center;
+  border-bottom: 1px solid #34495e;
+
+}
+
+.stiles-user-image img 
+{
+	width: 50px !important;
+	margin-right: 20px !important;
+}
+
+.stiles-user-info span 
+{
+  display: block;
+}
+
+.stiles-username 
+{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.stiles-logout, .stiles-logout a
+{
+  font-size: 14px;
+  color: #3498db !important;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation 
+{
+	min-height: 100vh;
+	clear: both;
+	width: 12% !important;
+	background-color: #2c3e50 !important;
+    box-sizing: border-box !important;
+    overflow: auto !important;
+}
+
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul li 
+{
+  border-bottom: 1px solid #34495e !important;
+  padding: 0px !important;
+  line-height: 1.5;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul li a
+{
+    transition: 0.4s;
+	font-family: 'Poppins' !important;
+	font-size: 14px !important;
+	padding: 10px 0 10px 20px !important;
+	width: 100% !important;
+	display: block !important;
+}
+
+.elementor-138 .elementor-element.elementor-element-2b6a2e1 .stiles_my_account_page .woocommerce-MyAccount-navigation ul li a:hover
+	{
+		color: #345345 !important;
+		background-color: #fff !important;
+	}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul li a:active
+	{
+		background-color: #34495e !important;
+		color: #345345 !important;
+	}
+
+.woocommerce-account .stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation,.woocommerce-account .stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation
+{
+  width: 16% !important;
+  float: none;
+}
+
+.stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation ul,.stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation ul
+{
+  border:none ;
+}
+
+.stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation ul li,.stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation ul li
+{
+  display: inline-block;
+  border-bottom: 0;
+  padding: 12px 10px;
+}
+
+.woocommerce-account .stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-content,.woocommerce-account .stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-content
+{
+  width: 100%;
+  float: none;
+}
+
+.stiles_my_account_menu_pos_hright .woocommerce-MyAccount-navigation,.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-content
+{
+  float: right;
+  background-color: #ffffff;
+}
+
+.stiles_my_account_menu_pos_hright .woocommerce-MyAccount-content,.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-navigation
+{
+    float: left;
+	height: 100%;
+}
+
+input
+{
+    border: 1px solid #ededed !important;
+}
+
+.spacer-top {margin-top: 0px !important;}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea
+{
+    color: #23282d;
+}
+
+.woocommerce form .form-row label, .woocommerce-page form .form-row label
+{
+    margin-bottom:6px;
+	font-weight: 500;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-content .form-row username {
+	height: 0px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+
+
+
+.required
+{
+    color:red;
+}
+
+.display-name span em
+{
+	color: #5D6889;
+    display: inline-block;
+    margin-top: -12px;
+	margin-bottom: 12px;
+	font-size: 12px;
+}
+
+.woocommerce-notices-wrapper
+{
+    text-align:left;
+}
+
+.btn-bs-file
+{
+    position:relative;
+}
+
+.btn-bs-file input[type="file"]
+{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+
+.custom-file-label
+{
+    font-weight: 400 !important;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.image-button
+{
+	background-color: #3498db;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+}
+
+.image-button:hover
+{
+	background-color: #2980b9;
+	color: #ffffff !important;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+}
+
+.csv-button
+{
+	background-color: #3498db;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+}
+
+.csv-button:hover
+{
+	background-color: #2980b9;
+	color: #ffffff !important;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+}
+
+button, [type="submit"], [type="button"] {
+	background-color: #3498db !important;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+}
+
+
+button:hover
+{
+	background-color: #2980b9 !important;
+	color: #ffffff !important;
+	border-radius: 4px !important;
+	font-size: 16px !important;
+	
+}
+
+#add-save-account {
+	margin-top: 0px !important;
+}
+
+.elementor-widget-stiles-login .elementor-field-label, .elementor-widget-stiles-login .smw-loginform-error, .elementor-widget-stiles-login .smw-logged-in-message
+{
+	text-align: center;
+}
+
+#add-image {
+	padding-left: 0px !important;
+	padding-bottom:  32px !important
+}
+
+
+.smw-login-form-footer a {
+	margin-top: 16px! important;
+}
+
+
+
+@media only screen and (max-width: 1831px) 
+{
+
+.stiles-user-area {
+	width: 16% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-navigation {
+	width: 16% !important;
+	}
+	
+	.stiles_my_account_page .woocommerce-MyAccount-content{
+		width: 82.2% !important;
+	}
+}
+
+@media only screen and (max-width: 1373px) 
+{
+
+.stiles-user-area {
+	width: 20% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-navigation {
+	width: 20% !important;
+	}
+	
+	.stiles_my_account_page .woocommerce-MyAccount-content{
+		width: 78.2% !important;
+	}
+	
+}
+
+@media only screen and (max-width: 1150px) 
+{
+	.elementor-nav-menu--main .elementor-nav-menu a, .elementor-nav-menu--main .elementor-nav-menu a.highlighted, .elementor-nav-menu--main .elementor-nav-menu a:focus, .elementor-nav-menu--main .elementor-nav-menu a:hover 
+	{
+	    padding: 0px 10px 0px 10px !important;
+	}
+	
+	.elementor-nav-menu .elementor-item 
+	{
+	    font-size: 14px !important;
+	}
+	
+	.stiles_my_account_page .woocommerce-MyAccount-content 
+	{
+		margin-top: -74px !important;
+	}
+	
+    .stiles-username 
+    {
+      font-size: 14px !important;
+    }
+	
+	.stiles-user-image img 
+	{
+		width: 40px !important;
+		margin-right: 10px !important;
+	}
+	
+	
+	.chartjs-render-monitor 
+	{
+		margin-bottom: 40px !important;
+	}
+	
+	
+	table
+	{
+    border-collapse: separate;
+    border-spacing: 0;
+	width: 100%;
+	}
+	
+table thead th
+	{
+    background-color: #2c3e50 !important;
+    color: #2c3e50;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+	}
+	
+table tbody td
+	{
+    color: #2c3e50;
+    padding: 10px;
+    text-shadow: 0px !important;
+    white-space: nowrap !important;
+	}
+	
+.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-content
+	{
+    position: relative !important;
+	}
+
+.table-responsive
+	{
+    overflow-x:auto !important;
+    overflow-y: visible !important;
+    padding-bottom: 5px !important;
+    background: transparent;
+	}
+
+}
+
+@media only screen and (max-width: 940px) {
+	
+.stiles-user-area
+	{
+	width: 20% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-navigation
+	{
+	width: 20% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-content
+	{
+	margin-top: -74px !important; width: 78% !important;
+	}	
+}
+
+@media only screen and (max-width: 902px) {
+	
+.stiles-user-area
+	{
+	width: 30% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-navigation
+	{
+	width: 30% !important;
+	}
+	
+.stiles_my_account_page .woocommerce-MyAccount-content
+	{
+	margin-top: -77px !important; width: 68% !important;
+	}	
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+	.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {padding: 0px !important;}
+	
+.col-md-6 {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	
+	.tab .tab-content {
+		padding: 0px !important;
+	}
+	
+	.tab {
+		text-align: left !important;
+	}
+	
+	
+	
+    .stiles-user-area 
+    {
+        padding: 20px;
+        width: 100% !important;
+        background-color: #2c3e50;
+        position: static;
+	    top: 0px !important;
+    }
+
+	.stiles-user-image img 
+	{
+		width: 50px !important;
+		margin-right: 20px !important;
+	}
+
+	.stiles_my_account_page .woocommerce-MyAccount-navigation 
+	{
+		width: 100% !important;
+		min-height: 0vh !important;
+		top: 100px !important;
+    	clear: both;
+    	position: sticky;
+    	overflow: auto;
+        white-space: nowrap;
+		background-color: #2c3e50 !important;
+		display: inline-block !important;
+    }
+
+	.stiles_my_account_page .woocommerce-MyAccount-navigation ul li
+	{
+		padding: 0px !important;
+		display: inline-block !important;
+	}
+	
+	.stiles_my_account_page .woocommerce-MyAccount-navigation ul li a
+	{
+		padding: 10px 10px 10px 20px !important;
+		
+	}
+	
+
+    ::-webkit-scrollbar:vertical
+    {
+        height: 4px;
+        width: 4px;
+        background: #ececec;
+    }
+    
+    ::-webkit-scrollbar-thumb:vertical
+    {
+        background: #00B7FF;
+        border-radius: 10px;
+    }
+	
+	::-webkit-scrollbar:horizontal
+    {
+        height: 4px;
+        width: 4px;
+        background: #ececec;
+    }
+    
+    ::-webkit-scrollbar-thumb:horizontal
+    {
+        background: #00B7FF;
+        border-radius: 10px;
+    }
+	
+	
+	.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-content 
+	{
+		float: none !important;
+		clear: both !important;
+		display: block !important;
+		width: 100% !important;
+		margin: 0 auto !important;
+		margin-bottom: 0px !important;
+		padding: 20px !important;
+    }
+	
+	.stiles_my_account_page .woocommerce-MyAccount-content .form-row 
+	{
+		margin-bottom: 0px !important;
+	}
+	
+	.woocommerce form .form-row label, .woocommerce-page form .form-row label 
+	{
+		line-height: 1.6 !important;
+	}
+
+	
+	.stiles_my_account_page .woocommerce-MyAccount-navigation 
+    {
+    	width: 100% !important;
+    	min-height: 0vh !important;
+    	position: static !important;
+    	top: 100px !important;
+    	padding: 0px !important;
+    	margin-bottom: 0px !important;
+    }
+    
+    .woocommerce-MyAccount-navigation ul
+    {
+        border:none;
+		text-align: center !important;
+    }
+	
+	.woocommerce-MyAccount-navigation ul li
+    {
+		display: inline-block !important;
+         border: 0px !important;
+		font-size: 14px !important;
+		padding: 0px !important;
+    }
+	
+		.woocommerce-MyAccount-navigation ul li a
+    {
+		display: inline-block !important;
+		padding: 0px !important;
+        border: 0px !important;
+		font-size: 14px !important;
+    }
+	
+	
+    .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last
+    {
+        width:100% !important;
+        float: none;
+    }
+	
+	input 
+    {
+        margin-bottom: 20px !important;
+    }
+	
+	/*tables*/
+	 
+	.table>tbody>tr>td, .table>tbody>tr>th, 
+	.table>tfoot>tr>td, .table>tfoot>tr>th, 
+	.table>thead>tr>td, .table>thead>tr>th 
+	    {
+		padding: 4px !important;
+	}
+	
+
+
+	.display-name span 
+	{
+	    margin-top: 0 !important;
+	}
+	
+	.chartjs-render-monitor 
+	{
+		margin-bottom: 40px !important;
+	}
+}
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 4px 15px;
+}
+
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    #boot-search-box {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+
+#search-filters, #report-filters {
+    padding:20px;
+}
+
+.panel-title a {
+    color:white !important;
+}
+
+.panel-heading {
+    background-color: #2c3e50 !important;
+    color:white !important;
+}
+
+.filter-container:not(:first-of-type) {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.filter-container:first-of-type {
+    margin-bottom:20px;
+}
+
+.filter-container:last-of-type {
+    margin-top:20px;
+}
+
+.filter-container .input-group {
+    width:100%;
+}
+
+.input-group .hrc, .input-group .pobo {
+    margin-right:10px;
+}
+
+.found-sales .more-less {
+	color: white !important;
+}
+
+.found-sales .sale-icon {
+	color: white !important;
+}
